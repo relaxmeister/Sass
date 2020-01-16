@@ -1,0 +1,37 @@
+@import "./constants.scss";
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.redBox {
+    width: 100px;
+    height: 100px;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: yellow;
+    }
+
+    .smallBox {
+        width: 20px;
+        height: 20px;
+        background-color: blue;    
+    }
+}
+
+
+
+.blueBox {
+    width: 100px;
+    height: 100px;
+    background-color: $color-dark;
+
+    &:hover {
+        background-color: red;
+    }
+}
