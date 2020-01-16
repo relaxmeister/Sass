@@ -9,7 +9,11 @@ function App() {
 
         </div>
       </div>
-      <div className="blueBox"></div>
+      <div className="blueBox">
+        <div className="smallBox">
+
+        </div>
+      </div>
     </div>
   );
 }
